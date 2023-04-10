@@ -1,4 +1,4 @@
-sudo pacman -S code arandr nitrogen lxappearance firefox engrampa picom lsd curl virtualbox discord alacritty rofi bat 
+sudo pacman -S code arandr nitrogen lxappearance firefox engrampa picom lsd curl virtualbox discord alacritty rofi bat pcmanfm 
 
 sudo usermod -aG vboxusers $USER
 
