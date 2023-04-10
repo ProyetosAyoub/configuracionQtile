@@ -1,4 +1,4 @@
-sudo pacman -S code arandr nitrogen lxappearance firefox engrampa picom lsd curl virtualbox discord
+sudo pacman -S code arandr nitrogen lxappearance firefox engrampa picom lsd curl virtualbox discord alacritty rofi bat 
 
 sudo usermod -aG vboxusers $USER
 
@@ -9,8 +9,6 @@ chmod +x setup.sh
 
 ./setup.sh
 
-sudo pacman -S rofi
-sudo pacman -S bat
 sh -c "$(curl -fsSL https://raw.github.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 
 nano ~/.bashrc < EOF
