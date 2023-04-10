@@ -2,9 +2,9 @@ sudo pacman -S code arandr nitrogen lxappearance firefox engrampa picom lsd curl
 
 sudo usermod -aG vboxusers $USER
 
-git clone --depth=1 https://github.com/adis1090x/rofi.git
+git clone --depth=1 https://github.com/adi1090x/rofi.git
 
-cd rodi
+cd rofi
 chmod +x setup.sh
 
 ./setup.sh
